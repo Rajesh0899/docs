@@ -27,7 +27,7 @@ function outer() {
   let myLexicalString = 'Hello';
 
   function inner() {
-    myLocalString = `${myGlobalString}, ${myLexicalString}!`;
+   let myLocalString = `${myGlobalString}, ${myLexicalString}!`;
     return myLocalString;
   }
 
